@@ -1,0 +1,1 @@
+convert INPUT.jpg -rotate '-90<' -dither FloydSteinberg -resize 600x448 -gravity Center -extent 600x448 -remap palette.png tmp.png
